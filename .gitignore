@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+
+# Azure Functions local settings (VERY IMPORTANT)
+local.settings.json
+
+# Environment files
+.env
+
+# Azure storage emulator files
+__blobstorage__/
+__queuestorage__/
+.azurite_db*
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# Zip files (build artifacts)
+*.zip
